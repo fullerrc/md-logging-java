@@ -30,7 +30,7 @@
           inherit a Jackson (2 or 3) dependency from their logging client; Jackson here verifies
           that what we emit parses back to what the agent expects.
         -->
-        <jackson.version>2.18.2</jackson.version>
+        <jackson.version>2.22.3</jackson.version>
         <!--
           1.20.x negotiates Docker API 1.32, which Docker 29 rejects outright. 1.21.x speaks a
           new enough API. Same pin as md-logging-agent; do not downgrade without checking against
