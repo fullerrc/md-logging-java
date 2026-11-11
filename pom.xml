@@ -36,7 +36,7 @@
           new enough API. Same pin as md-logging-agent; do not downgrade without checking against
           the daemon in use.
         -->
-        <testcontainers.version>1.21.4</testcontainers.version>
+        <testcontainers.version>2.0.5</testcontainers.version>
     </properties>
 
     <dependencies>
