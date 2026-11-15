@@ -60,8 +60,8 @@ jobs:
           distribution: 'temurin'
           cache: maven
           server-id: reposilite-snapshots
-          server-username: REPOSILITE_USER      # env var *names*, not values
-          server-password: REPOSILITE_TOKEN
+          server-username-env-var: REPOSILITE_USER      # env var *names*, not values
+          server-password-env-var: REPOSILITE_TOKEN
 
       - name: Deploy versioned jar
         env:
